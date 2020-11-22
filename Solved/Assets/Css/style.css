@@ -1,0 +1,21 @@
+h1{
+    color: aquamarine;
+}
+body{
+    background-image: url("../Images/ignasi_pattern_s.png");
+}
+
+.cardSpace{
+    width: 60rem; height: 40rem;
+    margin:60px
+    
+}
+
+.wrapText{
+    margin: 10px;
+}
+
+.portfolioCard{
+    width: 50rem;
+    height: 45rem;
+}
