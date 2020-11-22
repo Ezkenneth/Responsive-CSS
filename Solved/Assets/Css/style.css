@@ -8,7 +8,7 @@ body {
 
 #headName {
     color: white;
-    font-size: 22;
+    font-size: 22px;
     font-weight: bold;
     background: teal;
 }
@@ -22,7 +22,10 @@ body {
     height: 40rem auto;
     margin: 60px auto
 }
-
+/* Image formatting or cards */
+.crdImg{
+    width: auto;
+    }
 /* Portfolio page */
 
 .portfolioCard {
@@ -49,6 +52,7 @@ body {
 .portHead {
     color: teal;
     font-weight: bold;
+    font-size: 56px;
 }
 
 /* Footer */
