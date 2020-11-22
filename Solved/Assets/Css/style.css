@@ -4,8 +4,8 @@ body{
 }
 
 .cardSpace{
-    width: 60rem; height: 40rem;
-    margin:60px
+    width: 60rem auto; height: 40rem auto;
+    margin:60px auto
     
 }
 
@@ -33,6 +33,8 @@ body{
     background: teal;
 }
 
-.alignThisRight{
-    text-align: right;
+.imgFit{
+    width: auto;
+    margin: 15px auto;
+}
 }
