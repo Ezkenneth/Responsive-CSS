@@ -1,6 +1,4 @@
-h1{
-    color: aquamarine;
-}
+
 body{
     background-image: url("../Images/ignasi_pattern_s.png");
 }
@@ -18,4 +16,23 @@ body{
 .portfolioCard{
     width: 50rem;
     height: 45rem;
+}
+
+.whiteSpace{
+
+    padding: 60px;
+    margin-bottom: 30px;
+    background-color: white
+
+
+}
+#headName{
+    color: white;
+    font-size: 22;
+    font-weight: bold;
+    background: teal;
+}
+
+.alignThisRight{
+    text-align: right;
 }
