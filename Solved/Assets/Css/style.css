@@ -47,3 +47,7 @@ body{
     color: white;
     text-align: center;
   }
+  .portHead{
+      color: teal;
+      font-weight: bold;
+  }
