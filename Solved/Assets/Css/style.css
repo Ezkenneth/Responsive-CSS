@@ -1,42 +1,57 @@
+/* Linking background image */
 
-body{
+body {
     background-image: url("../Images/ignasi_pattern_s.png");
 }
 
-.cardSpace{
-    width: 60rem auto; height: 40rem auto;
-    margin:60px auto
-    
-}
+/* Navbar */
 
-.wrapText{
-    margin: 10px;
-}
-
-.portfolioCard{
-    width: 50rem;
-    height: 45rem;
-}
-
-.whiteSpace{
-
-    padding: 60px;
-    margin-bottom: 30px;
-    background-color: white
-
-
-}
-#headName{
+#headName {
     color: white;
     font-size: 22;
     font-weight: bold;
     background: teal;
 }
 
-.imgFit{
+/* Cards */
+
+/* Spacing  */
+
+.cardSpace {
+    width: 60rem auto;
+    height: 40rem auto;
+    margin: 60px auto
+}
+
+/* Portfolio page */
+
+.portfolioCard {
+    width: 50rem;
+    height: 45rem;
+}
+
+/* Whitespace backgroung for portfolio (opted for two separate platform styles) */
+
+.whiteSpace {
+    padding: 60px;
+    margin-bottom: 30px;
+    background-color: white
+}
+
+/* Image formatting  */
+
+.imgFit {
     width: auto;
     margin: 15px auto;
 }
+
+/* Header in .whiteSpace */
+.portHead {
+    color: teal;
+    font-weight: bold;
+}
+
+/* Footer */
 
 .footer {
     position: fixed;
@@ -46,8 +61,4 @@ body{
     background-color: teal;
     color: white;
     text-align: center;
-  }
-  .portHead{
-      color: teal;
-      font-weight: bold;
-  }
+}
