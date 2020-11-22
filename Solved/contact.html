@@ -11,13 +11,14 @@
 </head>
 
 <body>
-    <header>
+    <div class="wrapper">
+        <header>
 
 
 
 
 
-        <!-- <a class="navbar-text col-lg-2.5 h1" href="index.html" style="color: rgb(239, 245, 245); background-color: teal;">
+            <!-- <a class="navbar-text col-lg-2.5 h1" href="index.html" style="color: rgb(239, 245, 245); background-color: teal;">
                     Kenneth Joe-Ezigbo
                 </a>
                 <span class="navbar-text col-lg-6"></span>
@@ -30,63 +31,70 @@
                 <a class="navbar-text col-lg-1" href="index.html" media="screen">
                     About
                 </a> -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container">
-                <a class="navbar-brand" href="index.html" id="headName">Kenneth Joe-Ezigbo</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
-                    aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="contact.html">Contact</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="portfolio.html">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html"> About</a>
-                        </li>
-                    </ul>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html" id="headName">Kenneth Joe-Ezigbo</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="contact.html">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="portfolio.html">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html"> About</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main class="container-lg">
+            <div class="card cardSpace">
+                <div class="card-body">
+                    <h2 class="display-3" style="color: teal; font-style: oblique; margin-bottom: 30px;">Contact</h2>
+                    <form>
+
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Name</label>
+                            <input type="name" class="form-control" id="exampleInputName1" placeholder="Name">
+
+                        </div>
+
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email"
+                                aria-describedby="emailHelp">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                                else.</small>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Message</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"
+                                placeholder="Message"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary"
+                            style="background-color: teal; padding: 20px;">Submit</button>
+                    </form>
+
                 </div>
             </div>
-        </nav>
-    </header>
+        </main>
+    
 
-    <div class="container-lg">
-        <div class="card cardSpace">
-            <div class="card-body">
-                <h2 class="display-3" style="color: teal; font-style: oblique; margin-bottom: 30px;">Contact</h2>
-                <form>
+<footer class="footer">
+    <p></p>
+</footer>
 
-                    <div class="form-group">
-                        <label for="exampleInputPassword1">Name</label>
-                        <input type="name" class="form-control" id="exampleInputName1" placeholder="Name">
-
-                    </div>
-
-                    <div class="form-group">
-                        <label for="exampleInputEmail1">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email"
-                            aria-describedby="emailHelp">
-                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
-                            else.</small>
-                    </div>
-
-                    <div class="form-group">
-                        <label for="exampleFormControlTextarea1">Message</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"
-                            placeholder="Message"></textarea>
-                    </div>
-
-                    <button type="submit" class="btn btn-primary"
-                        style="background-color: teal; padding: 20px;">Submit</button>
-                </form>
-
-            </div>
-        </div>
-    </div>
 
 
 </body>
